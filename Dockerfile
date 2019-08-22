@@ -1,2 +1,2 @@
-FROM ubuntu
-ADD ./space /var/www/html/space
+FROM apache2
+ADD ./space/index.html /var/www/html/space
